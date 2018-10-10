@@ -18,7 +18,8 @@
 
 ## What is Amethyst?!
 
-Amethyst is a game engine aiming to be fast and as configurable as possible.
+Amethyst is a game engine aiming to be fast and as configurable as possible. I am trying to get a game engine functioning to create and run a bonsai tree simulation game.
+This is my initial change to begin building the game on the Amethyst engine. 
 
 ## Principles
 
