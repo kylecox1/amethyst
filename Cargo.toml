@@ -1,7 +1,7 @@
 [package]
 name = "amethyst"
 version = "0.8.0"
-authors = ["Kyle Cox"]
+authors = ["Eyal Kalderon <ebkalderon@gmail.com>"]
 description = "Data-oriented game engine written in Rust"
 exclude = ["examples/*", "book/*"]
 keywords = ["game", "engine", "sdk", "amethyst"]
@@ -190,6 +190,10 @@ path = "examples/prefab/main.rs"
 [[example]]
 name = "debug_lines"
 path = "examples/debug_lines/main.rs"
+
+[[example]]
+name = "bonsai"
+path = "examples/bonsai/main.rs"
 
 [workspace]
 members = ["amethyst_gltf"]

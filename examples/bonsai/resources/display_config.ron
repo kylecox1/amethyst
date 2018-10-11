@@ -1,0 +1,7 @@
+(
+  fullscreen: false,
+  multisampling: 0,
+  title: "Bonsai Simulator",
+  visibility: true,
+  vsync: true,
+)

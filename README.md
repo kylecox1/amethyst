@@ -1,25 +1,15 @@
 <img align="left" width="64px" src="book/src/images/amethyst_thumb.png" />
 
-# Amethyst
+# Bonsai Simulator
 
 [![Build Status][s1]][tc] [![Crates.io][s2]][ci] [![docs page][docs-badge]][docs] [![MIT/Apache][s3]][li] [![Join us on Discord][s4]][di] ![Lines of Code][s6]
 
-[s1]: https://travis-ci.org/amethyst/amethyst.svg?branch=master
-[s2]: https://img.shields.io/crates/v/amethyst.svg
-[docs-badge]: https://img.shields.io/badge/docs-website-blue.svg
-[docs]: https://www.amethyst.rs/doc/
-[s3]: https://img.shields.io/badge/license-MIT%2FApache-blue.svg
-[s4]: https://img.shields.io/discord/425678876929163284.svg?logo=discord
-[s6]: https://tokei.rs/b1/github/amethyst/amethyst?category=code
-[tc]: https://travis-ci.org/amethyst/amethyst/
-[ci]: https://crates.io/crates/amethyst/
-[li]: COPYING
-[di]: https://discord.gg/GnP5Whs
 
-## What is Amethyst?!
+## What is The Bonsai Simulator?
 
-Amethyst is a game engine aiming to be fast and as configurable as possible. I am trying to get a game engine functioning to create and run a bonsai tree simulation game.
-This is my initial change to begin building the game on the Amethyst engine. 
+This is an independent project using the Amethyst game engine to create a functioning bonsai tree simulation game. As this is branched from the Amethyst engine
+many of the links and documentation will lead back to Amethyst until they are all updated.
+
 
 ## Principles
 
@@ -48,48 +38,17 @@ share useful components, thus reducing development time and cost.
 Using the [ecs] architecture, the code of games can be cleanly divided between data and behaviour, making it easy to understand what is going on,
 even if the game is running on a massive 64 cores processor.
 
-### Community
-
-While we may not be feature-packed (yet!), we all strongly believe that the community-oriented side of amethyst will thrive as we move forward!
-
-## Features
-
-Please visit the [features page][feat] for a list of features Amethyst provides.
-
-[feat]: docs/FEATURES.md
-
-## Usage
-
-While the engine can be hard to use at times, we made a lot of [documentation][bk] that will teach you everything you need to use amethyst comfortably!
-
-If you don't understand a part of the documentation, please let us know. Join us on discord or open an issue, we are always happy to help!
-
-[bk]: https://www.amethyst.rs/book/latest/
 
 ## Getting started
 
-To compile any of the examples run:
+To compile the current build run:
 
 ```
-$ cargo run --example name_of_example
+$ cargo run --example bonsai
 ```
 
 All available examples are listed under [examples][ex].
 
-Our most advanced example is currently called pong. It is a pong game, as you may have guessed it.
-
-```
-$ cargo run --example pong
-```
-
-There are quite a few prototype games that were made with Amethyst. A list will be available soon.
-While we create this list, feel free to join our discord and ask about which projects are currently being made with Amethyst.
-
-For a full-blown "Hello World" tutorial check out the [Getting Started][gs] chapter
-in the book.
-
-[ex]: examples/
-[gs]: https://www.amethyst.rs/book/latest/
 
 ## Dependencies
 
@@ -113,50 +72,9 @@ $ sudo dnf install alsa-lib-devel openssl-devel cmake freetype-devel expat-devel
 
 See your distribution specific installation process for the equivalent dependencies.
 
-Please note that you need to have a functionnal graphics driver installed.
+Please note that you need to have a functional graphics driver installed.
 If you get a panic about the renderer unable to create the context when trying to run an example,
 faulty driver installation can be the issue.
-
-## Building Documentation
-
-You can build the book locally with:
-
-```
-$ cargo install mdbook
-$ mdbook build book
-```
-
-If you're actively editing the documentation, it's easiest to run:
-
-```
-$ mdbook serve book
-```
-
-and go to `http://localhost:3000`. For more information, see the [mdBook project](https://github.com/rust-lang-nursery/mdBook).
-
-The text can be found in `book/html/index.html`. To generate the API
-documentation locally, do:
-
-```
-$ cargo doc
-```
-
-The API reference can be found in `target/doc/amethyst/index.html`.
-
-## Questions / Help
-
-We do not support anything other than the most recent Rust stable release. Use nightly and beta channels with this project at your own risk.
-
-Please check out the [FAQ][faq] before asking.
-
-If you have a question, feel free to ask on our [Discord server][di] and we'll help you.
-
-Other places you may want to check out are [r/rust_gamedev][rg] and [#rust-gamedev IRC][irc].
-
-[faq]: https://github.com/amethyst/amethyst/wiki/Frequently-Asked-Questions
-[di]: https://discord.gg/GnP5Whs
-[rg]: https://www.reddit.com/r/rust_gamedev/
-[irc]: https://botbot.me/mozilla/rust-gamedev/
 
 ## Contributing
 
@@ -183,7 +101,7 @@ you can look through the [issue tracker][it].
 
 ## License
 
-Amethyst is free and open source software distributed under the terms of both
+The Bonsai Simulator is open source software distributed under the terms of both
 the [MIT License][lm] and the [Apache License 2.0][la].
 
 [lm]: docs/LICENSE-MIT
