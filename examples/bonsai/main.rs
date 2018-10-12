@@ -182,7 +182,7 @@ fn main() -> Result<(), Error> {
     let resources_directory = format!("{}/examples/assets", app_root);
 
     let display_config_path = format!(
-        "{}/examples/custom_game_data/resources/display_config.ron",
+        "{}/examples/bonsai/resources/display_config.ron",
         app_root
     );
 

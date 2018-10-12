@@ -2,8 +2,6 @@
 
 # Bonsai Simulator
 
-[![Build Status][s1]][tc] [![Crates.io][s2]][ci] [![docs page][docs-badge]][docs] [![MIT/Apache][s3]][li] [![Join us on Discord][s4]][di] ![Lines of Code][s6]
-
 
 ## What is The Bonsai Simulator?
 
