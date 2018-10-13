@@ -52,7 +52,7 @@ Container(
                 mouse_reactive: true,
             ),
             image: (
-                image: File("texture/logo_transparent.png", Png, ()),
+                image: File("texture/Letter_K.png", Png, ()),
             )
         ),
 
@@ -82,7 +82,7 @@ Container(
                     ),
                     text: (
                         text: "Editable",
-                        font: File("font/square.ttf", Ttf, ()),
+                        font: File("font/futura_book.ttf", Ttf, ()),
                         font_size: 75.,
                         color: (0.2, 0.2, 1.0, 1.0),
                         align: MiddleRight,

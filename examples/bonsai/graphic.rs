@@ -152,7 +152,7 @@ pub fn load_assets(world: &mut World) -> ProgressCounter {
 
         let logo = Material {
             albedo: loader.load(
-                "texture/logo.png",
+                "texture/Letter_K.png",
                 PngFormat,
                 Default::default(),
                 &mut progress,
@@ -179,7 +179,7 @@ pub fn load_assets(world: &mut World) -> ProgressCounter {
             &mesh_storage,
         );
         let font = loader.load(
-            "font/square.ttf",
+            "font/futura_book.ttf",
             TtfFormat,
             (),
             &mut progress,
